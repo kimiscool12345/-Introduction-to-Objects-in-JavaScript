@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to Objects in JavaScript</title>
+</head>
+
+<body>
+    <h1>JS Object</h1>
+    <p>There are different ways</p>
+    <p id="jet"></p>
+
+    <script>
+        // Creating an object
+        var person = {
+            firstname: "kim",
+            Age: 29,
+            occupation: "codingmaster",
+        };
+
+        // Displaying some data from the object:
+        document.getElementById("jet").innerHTML =
+            "My name is " + person.firstname +
+            ". I am " + person.Age + " yrs old. " +
+            "My full-time occupation is " + person.occupation + ".";
+    </script>
+</body>
+
+</html>
